@@ -1,11 +1,11 @@
 """********************************************************************************
- * Copyright (c) 2022 Ian Craggs
+ * Copyright (c) 2025 Ian Craggs
  *
  * This program and the accompanying materials are made available under the
- * terms of the Eclipse Public License 2.0 which is available at
- * http://www.eclipse.org/legal/epl-2.0.
+ * terms of the Eclipse Public License 3.0 which is available at
+ * http://www.eclipse.org/legal/epl-3.0.
  *
- * SPDX-License-Identifier: EPL-2.0
+ * SPDX-License-Identifier: EPL-3.0
  *
  * Contributors:
  *   Ian Craggs - initial implementation
@@ -25,13 +25,13 @@ outfile = open(outputFile, "w")
 
 outfile.write("""
 /*
- * Copyright (c) 2022 Anja Helmbrecht-Schaar, Ian Craggs
+ * Copyright (c) 2025 Anja Helmbrecht-Schaar, Ian Craggs
  * <p>
  * All rights reserved. This program and the accompanying materials
- * are made available under the terms of the Eclipse Public License v2.0
- * which is available at https://www.eclipse.org/legal/epl-2.0/
+ * are made available under the terms of the Eclipse Public License v3.0
+ * which is available at https://www.eclipse.org/legal/epl-3.0/
  * <p>
- * SPDX-License-Identifier: EPL-2.0
+ * SPDX-License-Identifier: EPL-3.0
  * <p>
  * Contributors:
  * Anja Helmbrecht-Schaar - initial implementation and documentation

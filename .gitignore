@@ -5,7 +5,7 @@ SparkplugTCKClient*
 SparkplugTCKedge*
 SparkplugTCKdevice*
 tck/src/license/THIRD-PARTY.properties
-.gradle
+.yeshu
 build/
 target/
 specification/src/main/asciidoc/docinfo-header.html

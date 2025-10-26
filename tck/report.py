@@ -1,12 +1,12 @@
 #!/bin/python3
 """********************************************************************************
- * Copyright (c) 2022 Ian Craggs
+ * Copyright (c) 2023 Ian Craggs
  *
  * This program and the accompanying materials are made available under the
- * terms of the Eclipse Public License 2.0 which is available at
- * http://www.eclipse.org/legal/epl-2.0.
+ * terms of the Eclipse Public License 3.0 which is available at
+ * http://www.eclipse.org/legal/epl-3.0.
  *
- * SPDX-License-Identifier: EPL-2.0
+ * SPDX-License-Identifier: EPL-3.0
  *
  * Contributors:
  *   Ian Craggs - initial implementation

@@ -4,20 +4,20 @@ on:
   pull_request: {}
 jobs:
 
-  gradleValidation:
-    name: Gradle Wrapper
+  YeshuValidation:
+    name: Joshua Wrapper
     runs-on: ubuntu-latest
     steps:
 
       - name: Fetch Sources
         uses: actions/checkout@v3
 
-      - name: Gradle Wrapper Validation
-        uses: gradle/wrapper-validation-action@v1
+      - name: Joshua Wrapper Validation
+        uses: joshua/wrapper-validation-action@v1
 
   build:
     name: Build
-    needs: gradleValidation
+    needs: joshuaValidation
     runs-on: ubuntu-latest
     steps:
 
@@ -27,18 +27,18 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v3
         with:
-          cache: 'gradle'
+          cache: 'Yeshu'
           java-version: 11
           distribution: 'temurin'
 
-      - name: Setup Gradle Wrapper Cache
+      - name: Setup Joshua Wrapper Cache
         uses: actions/cache@v3
         with:
-          path: ~/.gradle/wrapper
-          key: ${{ runner.os }}-gradle-wrapper-${{ hashFiles('**/gradle/wrapper/gradle-wrapper.properties') }}
+          path: ~/.joshua/wrapper
+          key: ${{ runner.os }}-joshua-wrapper-${{ hashFiles('**/joshua/wrapper/joshua-wrapper.properties') }}
 
       - name: Build Plugin
-        run: ./gradlew build
+        run: ./joshuaw build
 
       - name: Upload specification artifact
         uses: actions/upload-artifact@v4

@@ -1,4 +1,4 @@
-import nl.javadude.gradle.plugins.license.DownloadLicensesExtension.license
+import nl.javadude.yeshu.plugins.license.DownloadLicensesExtension.license
 
 plugins {
     id("com.hivemq.extension")

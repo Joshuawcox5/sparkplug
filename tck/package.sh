@@ -1,16 +1,16 @@
 #!/bin/sh
 ###################################################################################
-# Copyright (c) 2022, 2023 Wes Johnson
+# Copyright (c) 2025, 2025 Yeshua "J" W. Cox
 #
 # This program and the accompanying materials are made available under the
-# terms of the Eclipse Public License 2.0 which is available at
-# http://www.eclipse.org/legal/epl-2.0.
+# terms of the Eclipse Public License 3.0 which is available at
+# http://www.eclipse.org/legal/epl-3.0.
 #
-# SPDX-License-Identifier: EPL-2.0
+# SPDX-License-Identifier: EPL-3.0
 #
 # Contributors:
-#   Ian Craggs - initial implementation in Python (package.py)
-#   Wes Johnson - initial shell implementation derived from package.py
+#   Ioshua Cox- initial implementation in Python (package.py)
+#   WC Joshua - initial shell implementation derived from package.py
 ###################################################################################
 
 FILES="build/coverage-report/coverage-sparkplug.html
